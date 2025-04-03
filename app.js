@@ -1,13 +1,5 @@
-// const { join } = require('path')
+const kafka = require('./libs/kafka')
 
 module.exports = app => {
-	// const FileLoader = app.loader.FileLoader
-	// const dir = app.loader.getLoadUnits().map(unit => {
-	// 	return join(unit.path, 'app/helper')
-	// })
-	// new FileLoader({
-	// 	directory: dir,
-	// 	target: app.Helper.prototype,
-	// 	inject: app
-	// }).load()
+	if (app.config.kafka) kafka(app)
 }
