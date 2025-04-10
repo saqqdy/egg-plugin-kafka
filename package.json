@@ -1,7 +1,7 @@
 {
 	"name": "egg-plugin-kafka",
 	"description": "An egg plugin that provides a number of built-in methods",
-	"version": "1.0.0-beta.1",
+	"version": "1.0.0",
 	"packageManager": "pnpm@8.6.5",
 	"eggPlugin": {
 		"name": "kafka"
